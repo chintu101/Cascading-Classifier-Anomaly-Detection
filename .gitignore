@@ -1,0 +1,316 @@
+# ==============================================================================
+# PYTHON
+# ==============================================================================
+
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Translations
+*.mo
+*.pot
+
+# Virtualenv / venv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+pipenv/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pyright
+pyrightconfig.json
+
+# Ruff
+.ruff_cache/
+
+# PDM
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+
+# ==============================================================================
+# PYCHARM / JETBRAINS
+# ==============================================================================
+
+# Project settings — these are machine-specific and should not be shared
+.idea/
+
+# Exception: share these if your team uses the same run configurations,
+# code style rules, or dictionary. Uncomment selectively if needed:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+# !.idea/dictionaries/
+# !.idea/inspectionProfiles/
+
+# PyCharm local history
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries/
+
+# JetBrains plugin scratch files and caches
+*.iws
+*.iml
+*.ipr
+out/
+
+# JetBrains MPS
+*.mps
+*.mpl
+*.msd
+
+# TeamCity
+.teamcity/
+
+
+# ==============================================================================
+# MACHINE LEARNING & DATA SCIENCE
+# ==============================================================================
+
+# Jupyter notebooks — checkpoints only; keep .ipynb files themselves
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Trained model artefacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.bin
+models/
+saved_models/
+checkpoints/
+
+# Data files — raw and processed datasets should not be in version control
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.json.gz
+*.jsonl
+data/
+datasets/
+raw/
+processed/
+interim/
+
+# Exceptions — keep small reference or config JSON files if needed:
+# !config.json
+# !schema.json
+
+# Experiment tracking
+mlruns/
+mlartifacts/
+wandb/
+.neptune/
+runs/
+lightning_logs/
+outputs/
+artifacts/
+
+# TensorBoard logs
+logs/
+tensorboard/
+events.out.tfevents.*
+
+# Optuna
+optuna.db
+optuna_studies/
+
+# DVC (Data Version Control)
+.dvc/tmp/
+.dvc/cache/
+/tmp/
+
+# SHAP / explainability output
+shap_values/
+shap_plots/
+
+
+# ==============================================================================
+# ENVIRONMENT & SECRETS
+# ==============================================================================
+
+# Environment variable files — never commit secrets
+.env
+.env.*
+.envrc
+!.env.example          # keep an example template if you have one
+
+# API keys, credentials, certificates
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+.secrets/
+config/local_settings.py
+
+
+# ==============================================================================
+# OPERATING SYSTEM
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ==============================================================================
+# DOCUMENTATION BUILD
+# ==============================================================================
+
+docs/_build/
+docs/generated/
+site/
+.mkdocs/
+*.rst.bak
+
+
+# ==============================================================================
+# MISCELLANEOUS
+# ==============================================================================
+
+# Compiled output and archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.gz
+
+# Profiling output
+*.prof
+*.lprof
+profile_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Editor swap files (Vim / Emacs)
+*.swp
+*.swo
+\#*\#
+.\#*
