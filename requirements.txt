@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Requirements for: Sequential Fraud Detection Pipeline
+# Python version  : 3.13+
+#
+# Install all dependencies:
+#     pip install -r requirements.txt
+#
+# Install with optional SMOTE support:
+#     pip install -r requirements.txt imbalanced-learn>=0.12.0
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core numerical computing
+numpy>=1.26.0               # Python 3.13 support landed in 1.26
+
+# DataFrame construction and labelling
+pandas>=2.1.0               # Python 3.13 support landed in 2.1
+
+# All ML models, metrics, scalers, pipelines, and train/test split
+scikit-learn>=1.4.0         # Python 3.13 support landed in 1.4; also
+                            # fixes IsolationForest contamination warnings
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Optional — only needed for SMOTE oversampling in Stage 3.
+# The pipeline runs without it (falls back to class_weight="balanced").
+# ──────────────────────────────────────────────────────────────────────────────
+# imbalanced-learn>=0.12.0  # Python 3.13 support landed in 0.12;
+                            # must be paired with scikit-learn>=1.4
